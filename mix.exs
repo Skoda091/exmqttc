@@ -33,7 +33,7 @@ defmodule Exmqttc.Mixfile do
   defp deps do
     [
       {:emqttc, github: "emqtt/emqttc", only: [:dev, :test]},
-      {:uuid, "~> 1.1"},
+      { :elixir_uuid, "~> 1.2" },
       {:ex_doc, ">= 0.0.0", only: :dev},
       {:dialyxir, "~> 0.5", only: :dev, runtime: false},
       {:credo, "~> 0.8.0", only: [:dev, :test], runtime: false},
